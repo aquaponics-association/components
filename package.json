@@ -1,0 +1,18 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": "git@github.com:aquaponics-association/components.git",
+  "author": "Jonathan Reyes <jon@aquaponics.ai>",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "watch": "microbundle watch",
+    "start:server": "python -m SimpleHTTPServer",
+    "dev": "run-p start:server watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.3",
+    "npm-run-all": "^4.1.5"
+  }
+}
